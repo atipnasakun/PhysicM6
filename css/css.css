@@ -126,5 +126,6 @@ body h1 {
 
 .menubar1 .foot {
     float: right;
-
+    width: 10%;
+    height: 7px;
 }
