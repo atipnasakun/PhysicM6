@@ -1,0 +1,130 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Gill Sans", sans-serif;
+    ;
+    background-color: #FFDDDD;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.menubar {
+margin: 0px;
+    padding: 0px;
+    
+    height: 70px;
+    background: #fff;
+    box-shadow: 0 0 10px #666;
+}
+
+.menubar h1 {
+    padding: 18px;
+    margin: 0;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.menubar ul.menu {
+    list-style: none;
+}
+
+.menubar ul.menu li {
+    float: right;
+    margin-right: 20px;
+    padding-top: 35px;
+}
+
+.menubar .logo {
+    float: left;
+}
+
+.menubar ul.menu li a {
+    text-decoration: none;
+    color: #333;
+    border-bottom: 3px solid transparent;
+    padding-bottom: 20px;
+    transition: all 0.3s ;
+}
+
+.menubar ul.menu li a:hover {
+    border-bottom: 3px solid #333;
+    padding-bottom: 0px;
+}
+
+.header_area h1 {
+    text-align: center;
+    padding: 5px;
+    font-size: 32px;
+}
+
+.header_area {
+    margin: 0 auto;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.header_area p {
+    font-size: 18px;
+    margin: 0 auto;
+}
+
+.info1_area a {
+    text-decoration: none;
+    color: #333;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 20px;
+    transition: all 0.3s ease;
+}
+
+.info1_area a:hover {
+    border-bottom: 2px solid #333;
+    padding-bottom: 0px;
+}
+
+.info2_area a {
+    text-decoration: none;
+    color: #333;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 20px;
+    transition: all 0.3s ease;
+}
+
+.info2_area a:hover {
+    border-bottom: 2px solid #333;
+    padding-bottom: 0px;
+}
+
+body h1 {
+    text-align: center;
+}
+
+.container a {
+    text-decoration: none;
+    color: #333;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 20px;
+    transition: all 0.3s ease;
+}
+
+.container a:hover {
+    border-bottom: 2px solid #333;
+    padding-bottom: 0px;
+}
+
+.menubar1 {
+    padding: 10px;
+    width: 10%;
+    height: 7px;
+    background: #fff;
+    box-shadow: 0 0 10px #666;
+}
+
+.menubar1 .foot {
+    float: right;
+
+}
