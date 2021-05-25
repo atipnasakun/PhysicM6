@@ -1,27 +1,29 @@
 body {
     margin: 0px;
     padding: 0px;
-    font-family: "Gill Sans", sans-serif;
-    ;
-    background-color: #FFDDDD;
+    font-family: "ZoodHardSell2", Regular;
+    color: #776E65;;
+    background-color: #FAF8EF;
+    font-size: 30px;
 }
 
 .container {
     width: 960px;
     margin: 0 auto;
+    
 }
 
 .menubar {
-margin: 0px;
+    margin: 0px;
     padding: 0px;
-    
+    color: #E8C566;
     height: 70px;
-    background: #fff;
-    box-shadow: 0 0 10px #666;
+    background: #8F7A66;
+    box-shadow: 0 0 50px #666;
 }
 
 .menubar h1 {
-    padding: 18px;
+    padding: 14px;
     margin: 0;
     font-size: 36px;
     font-weight: bolder;
@@ -33,31 +35,37 @@ margin: 0px;
 
 .menubar ul.menu li {
     float: right;
+    font-size: 20px;
     margin-right: 20px;
-    padding-top: 35px;
+    padding-top: 40px;
 }
 
 .menubar .logo {
     float: left;
+    padding-bottom: 10px;
 }
-
+.menubar .logo h1 {
+    float: right;
+    padding-top:0px;
+    font-size: 75px;
+}
 .menubar ul.menu li a {
     text-decoration: none;
-    color: #333;
+    color:#EEE4DA;
     border-bottom: 3px solid transparent;
-    padding-bottom: 20px;
+    padding-bottom: 18px;
     transition: all 0.3s ;
 }
 
 .menubar ul.menu li a:hover {
-    border-bottom: 3px solid #333;
+    border-bottom: 3px solid #df8f40;
     padding-bottom: 0px;
 }
 
 .header_area h1 {
     text-align: center;
-    padding: 5px;
-    font-size: 32px;
+    padding: 0px;
+    font-size: 55px;
 }
 
 .header_area {
@@ -75,27 +83,29 @@ margin: 0px;
 
 .info1_area a {
     text-decoration: none;
-    color: #333;
+    
+    color: #8F7A66;
+
     border-bottom: 2px solid transparent;
     padding-bottom: 20px;
     transition: all 0.3s ease;
 }
 
 .info1_area a:hover {
-    border-bottom: 2px solid #333;
+    border-bottom: 2px solid #df8f40;
     padding-bottom: 0px;
 }
 
 .info2_area a {
     text-decoration: none;
-    color: #333;
+    color: #8F7A66;
     border-bottom: 2px solid transparent;
     padding-bottom: 20px;
     transition: all 0.3s ease;
 }
 
 .info2_area a:hover {
-    border-bottom: 2px solid #333;
+    border-bottom: 2px solid #df8f40;
     padding-bottom: 0px;
 }
 
@@ -105,27 +115,44 @@ body h1 {
 
 .container a {
     text-decoration: none;
-    color: #333;
+    
     border-bottom: 2px solid transparent;
     padding-bottom: 20px;
     transition: all 0.3s ease;
 }
 
 .container a:hover {
-    border-bottom: 2px solid #333;
+    border-bottom: 2px solid #df8f40;
     padding-bottom: 0px;
 }
 
 .menubar1 {
-    padding: 10px;
-    width: 10%;
-    height: 7px;
-    background: #fff;
-    box-shadow: 0 0 10px #666;
+    margin-top: 40px;
+    padding: 0px;
+    width: 100%;
+    height: 55px;
+    background: #8F7A66;
 }
 
-.menubar1 .foot {
-    float: right;
-    width: 10%;
-    height: 7px;
+body ul  {
+    margin: 0 auto;
+}
+.menubar1 h6{
+    padding-top: 5px;
+    margin-right: 10px;
+    color:#EEE4DA;
+}
+body .container a
+{
+    text-decoration: none;
+    
+    color: #8F7A66;
+
+    border-bottom: 2px solid transparent;
+    padding-bottom: 20px;
+    transition: all 0.3s ease;
+}
+body .foot
+{
+    height: 50px;
 }
