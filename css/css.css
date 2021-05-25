@@ -92,7 +92,7 @@ body {
 }
 
 .info1_area a:hover {
-    border-bottom: 2px solid #df8f40;
+    border-bottom: 4px solid #df8f40;
     padding-bottom: 0px;
 }
 
@@ -105,7 +105,7 @@ body {
 }
 
 .info2_area a:hover {
-    border-bottom: 2px solid #df8f40;
+    border-bottom: 4px solid #df8f40;
     padding-bottom: 0px;
 }
 
